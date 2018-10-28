@@ -13,3 +13,14 @@ NPM https://www.npmjs.com/
 Express - minimalist framework, can be used in dev and production. 
 https://expressjs.com/
 
+## Transpiling
+babel
+
+## Bundling
+webpack
+
+## Linting
+ESLint https://eslint.org/
+
+eslint-plugin-react
+eslint-plugin-jest
