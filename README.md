@@ -21,6 +21,17 @@ webpack
 
 ## Linting
 ESLint https://eslint.org/
-
+need to add the plugins below 
 eslint-plugin-react
 eslint-plugin-jest
+
+#Testing
+Jest https://jestjs.io/en
+Enzyme https://airbnb.io/enzyme/
+Puppeteer https://github.com/GoogleChrome/puppeteer
+Test files are placed in a __tests__ folder
+Use pre-comit to prevent broken tests from being pushed
+
+#CI Server
+Travic CI - https://travis-ci.org/dashboard
+
