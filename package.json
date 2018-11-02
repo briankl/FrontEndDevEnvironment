@@ -7,11 +7,14 @@
     "start": "npm-run-all --parallel open:src lint:watch",
     "open:src": "babel-node buildScripts/srcServer",
     "lint": "esw webpack.config.* src buildScripts",
-		"lint:watch": "npm run lint -- --watch",
-		"test": "jest",
-		"test:watch": "jest --watch"
-	},
-	"pre-push":["lint","test"],
+    "lint:watch": "npm run lint -- --watch",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "pre-push": [
+    "lint",
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/briankl/FrontEndDevEnvironment.git"
@@ -46,6 +49,7 @@
   },
   "dependencies": {
     "react": "^16.6.0",
-    "react-dom": "^16.6.0"
+    "react-dom": "^16.6.0",
+    "whatwg-fetch": "^3.0.0"
   }
 }
